@@ -1,0 +1,108 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Hi, Customer"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "We would love to see you visit again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which categories do you have?",
+        "What kinds of products are in store?",
+        "What do you sell?",
+        "What products are for SALE?"
+      ],
+      "responses": [
+        "We have tshirts, shirts, pants, shoes and accessories in stock",
+        "We have tshirts in size XXL, XL, L, M AND SM",
+        "We have shirts in size XXL, XL, L, M AND SM",
+        "We have shoes in size XXL, XL, L, M AND SM",
+        "We have shorts in size XXL, XL, L, M AND SM",
+        "We have pants in size XXL, XL, L, M AND SM"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?",
+        "Can i pay through MPESA"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard, MPESA and Paypal",
+        "We accept most major credit cards, and Paypal",
+        "We currently don't accept cash payments"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-3 days business days",
+        "Shipping takes 2-5 days business days"
+      ]
+    },
+    {
+      "tag": "customer service",
+      "patterns":[
+        "Can i talk to a Customer Care Agent?",
+        "Are there humans I can talk to now?",
+        "May i speak with a human?"
+      ],
+      "responses":[
+        "No human is currentky available. Please leave your email.",
+        "An agent will contact you via phone in a moment",
+        "Kindly, be patient as we connect you to an agent",
+        "Please call the Customer Care line to speak with an agent",
+        "Kindly, note it's past working hours. We'll get back to you via email later"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
