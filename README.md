@@ -1,6 +1,6 @@
 <h1 align="center">:robot: PyTorch AI-Chatbot for E-commerce Site :computer:</h1>
 
-In conversations, Context is king. This is a chatbot framework with a conversational model for an Ecommerce Website. The chatbot for this handles simple questions about hours of operation, reservation options, products in stock and so on. The chatbot also handles contextual responses such as inquiries about same-day deliveries and shipping. 
+In conversations, Context is king. This is a chatbot framework with a conversational model for an Ecommerce Website. The chatbot handles simple questions about hours of operation, reservation options, products in stock and so on. The chatbot also handles contextual responses such as inquiries about same-day deliveries and shipping. 
 
 ## :electric_plug: What to Expect
 - Training of the chatbot
@@ -14,7 +14,7 @@ In conversations, Context is king. This is a chatbot framework with a conversati
 ## :syringe:Installation
 
 ### :earth_africa:Create an environment
-Whatever you prefer (e.g. `conda` or `venv`)
+- Whatever you prefer (e.g. `conda` or `venv`)
 ```console
 mkdir myproject
 $ cd myproject
@@ -26,7 +26,7 @@ $ python3 -m venv venv
 ```console
 . venv/bin/activate
 ```
-- For Windows Users:
+- For Windows Users: 
 Use `conda base activate` or the code below:
 ```console
 venv\Scripts\activate
@@ -47,17 +47,18 @@ $ python
 ```
 
 ## :high_brightness:Usage
-Run
+- Run
 ```console
 python train.py
 ```
-This will dump data into the `data.pth` file. And then run
+- This will dump data into the `data.pth` file. And then run
 ```console
 python chat.py
 ```
 
 ## :gear:Customize
-Have a look at [intents.json](intents.json). You can customize it according to your own use case. Define a new `tag`, possible `patterns`, and possible `responses` for the chat bot. You have to re-run the training whenever this file is modified.
+- Have a look at [intents.json](intents.json). 
+- You can customize it according to your own use case. Define a new `tag`, possible `patterns`, and possible `responses` for the chat bot. You have to re-run the training whenever this file is modified.
 ```console
 {
   "intents": [
@@ -85,9 +86,8 @@ Have a look at [intents.json](intents.json). You can customize it according to y
 
 ## :v:Contributing
 
-You wanna contribute? Wow amazing. That's great to hear.
-
-After cloning & setting up the local project you can push the changes to your github fork and make a pull request.
+- You wanna contribute? Wow amazing. That's great to hear.
+- After cloning & setting up the local project you can push the changes to your github fork and make a pull request.
 
 ### :chart_with_upwards_trend:Pushing the changes
 
